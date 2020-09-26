@@ -2,9 +2,9 @@
 # Site
 
 title: Hydra Template
-url: "https://proud-alligator.cloudvent.net"
+url: "https://assignmentlogger.colewilson.xyz/"
 baseurl:
-google_analytics_key:
+google_analytics_key: UA-179067232-1
 google_maps_javascript_api_key:
 disqus_shortname:
 
@@ -12,14 +12,12 @@ disqus_shortname:
 logo: /siteicon.png
 description: Product marketing template for Jekyll.
 author:
-  name:
-  email:
+  name: Cole Wilson
+  email: help@assignmentlogger.com
   twitter: # twitter username without the @ symbol
 social:
-  name: Hydra Template
+  name: 
   links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
-
 # -----
 # Build
 
