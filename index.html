@@ -6,7 +6,19 @@ description: Beta version out now!
 	<div class="text-container">
 		<h1 class="editable"><strong>AssignmentLogger</strong></h1>
 		<p class="subtext editable">The collaborative homework planner.</p>
-		<div class="cta button alt"><a href="https://app.assignmentlogger.com">Get Started!</a></div>
+		<div class="cta button alt"><a href="https://app.assignmentlogger.com">Sign up now!</a></div>
+		<div class="subtext"><span id="outof" onload="loadDoc()"></span><strong>/300 by the end of 2020!</strong></div>
+		<script>function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("outof").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "https://api.assignmentlogger.com/count.txt", true);
+  xhttp.send();
+				setTimeout(function(){ loadDoc() }, 6000);
+}</script>
 		<div>
 			<img src="https://dobby.colewilson.xyz/files/Screenshot%202020-10-07%20at%209.20.50%20AM.png" alt="Screenshot" class="screenshot editable" />
 		</div>
