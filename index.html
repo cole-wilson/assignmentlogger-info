@@ -7,12 +7,12 @@ description: Beta version out now!
 		<h1 class="editable"><strong>AssignmentLogger</strong></h1>
 		<p class="subtext editable">The collaborative homework planner.</p>
 		<div class="cta button alt"><a href="https://app.assignmentlogger.com">Sign up now!</a></div>
-		<div class="subtext"><span id="outof" onload="loadDoc()"></span><strong>/300 by the end of 2020!</strong></div>
+		<div class="subtext"><span id="outof" onload="loadDoc()"></span><strong>/300 users!</strong></div>
 		<script>
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-	    alert(this.responseText);
+// 	    alert(this.responseText);
      document.getElementById("outof").innerHTML = this.responseText;
     }
   };
