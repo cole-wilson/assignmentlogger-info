@@ -1,24 +1,24 @@
-- name: Pricing
-  link: /pricing/
-  new_window: false
-  highlight: false
-- name: Blog
-  link: /blog/
-  new_window: false
-  highlight: false
-- name: About
-  link: /about/
-  new_window: false
-  highlight: false
+#- name: Pricing
+#  link: /pricing/
+#  new_window: false
+#  highlight: false
+#- name: Blog
+#  link: /blog/
+#  new_window: false
+#  highlight: false
+#- name: About
+#  link: /about/
+#  new_window: false
+#  highlight: false
 - name: Contact
-  link: /contact/
-  new_window: false
+  link: mailto:support@assignmentlogger.com
+  new_window: true
   highlight: false
 - name: Login
-  link: /
+  link: https://app.assignmentlogger.com
   new_window: true
   highlight: false
 - name: Sign Up
-  link: /
+  link: https://app.assignmentlogger.com
   new_window: true
   highlight: true
