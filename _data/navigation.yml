@@ -15,10 +15,10 @@
   new_window: true
   highlight: false
 - name: Login
-  link: https://app.assignmentlogger.com
+  link: https://app.assignmentlogger.com/?utm_source=info-page&utm_medium=login-button
   new_window: true
   highlight: false
 - name: Sign Up
-  link: https://app.assignmentlogger.com
+  link: https://app.assignmentlogger.com/?utm_source=info-page&utm_medium=signup-button
   new_window: true
   highlight: true
