@@ -4,9 +4,8 @@ description: Beta version out now!
 ---
 <style>
 body {
-	animation: colors 2s infinite !important;
+  animation: colors 2s infinite !important;
 }
-
 @keyframes colors {
   0% {background-color: #1a76a8 !important;}
   50% {background-color: lightblue !important;}
@@ -19,6 +18,7 @@ body {
 		<p class="subtext editable">The collaborative homework planner.<br>
 			<span id="outof"><span style="color: lightgrey">2 Billion</span></span> users so far. Help us get 300 by the end of 2020!
 		</p>
+		<h2 id="atxt">-</h2><br>Assignments Logged
 		<div class="cta button alt"><a href="https://app.assignmentlogger.com/?utm_source=info-page&utm_medium=get-started-button">Sign up now!</a></div>
 <!-- 		<div class="subtext"><span id="outof" onload="loadDoc()"></span><strong>/300 users!</strong></div> -->
 		<script>
@@ -31,6 +31,15 @@ body {
     }
   };
   xhttp.open("GET", "https://api.assignmentlogger.com/count.txt", true);
+  xhttp.send();
+			var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+// 	    alert(this.responseText);
+     document.getElementById("atxt").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "https://api.assignmentlogger.com/a.txt", true);
   xhttp.send();
 </script>
 		<div>
